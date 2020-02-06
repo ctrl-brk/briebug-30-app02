@@ -17,6 +17,12 @@
     "app-e2e": {
       "tags": [],
       "implicitDependencies": ["app"]
+    },
+    "data": {
+      "tags": []
+    },
+    "auth": {
+      "tags": []
     }
   }
 }

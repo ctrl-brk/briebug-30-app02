@@ -1,10 +1,15 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'thirty02-root',
+  // tslint:disable-next-line:component-selector
+  selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Cheers!';
+
+  links = [
+    { path: '/drinks', icon: 'local_bar', title: 'Drinks' },
+  ]
 }
